@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+<!--
+    <head class="container">
+        <div class="container">
+      
+            <h1>my website</h1>
+        </div>
+
+        <nav class="container-fluid">
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+
+    </head>
+-->
+    <!---->
+    <!--Documentation
+
+        container-fluid vs container
+
+        flexbox commands
+        justify-self- (start/center/end): horizontal
+        align-self-: vertical
+        
+
+        col- , row-
+        media, media-body
+        list-unstyled (for clearance of default ul props. )
+        visible, invisible (toggling)
+        ofset-, order-
+        mr-, mt- (margin-right, margin-top) or mr-sm-3 (responsive)
+        pr- (padding-right)
+
+        d-flex or d-sm-flex : for extra sizing alignment spacing etc..
+
+    -->
+    <section class="container">
+        <div class="row">
+            <div class="col align-items-start">1th of three columns</div>
+            <div class="col align-items-center">2nd of three columns</div>
+            <div class="col align-items-end">3rd of three columns</div>
+
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+            <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+          </div>
+    </section>
+<!--
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-8">col-sm-8</div>
+            <div class="col-sm-4">col-sm-4</div>
+          </div>
+          <div class="row">
+            <div class="col-sm">col-sm</div>
+            <div class="col-sm">col-sm</div>
+            <div class="col-sm">col-sm</div>
+          </div>
+    </section>
+-->
+<!--
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+          </div>
+    </section>
+-->
+
+    <!--images u need media and media-body classes-->
+    <div class="container media">
+   
+            <img class=" align-self-center mr-3" src="images/tmp64x64.jpeg" alt="Generic placeholder image">
+   
+            <div class="media-body">
+              <h5 class="mt-sm-0">Media heading</h5>
+                <p>Cras sit amet nibh libero, in gravida nulla. 
+                Nulla vel metus scelerisque ante sollicitudin. Cras 
+                purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                
+                <p>Fusce condimentum nunc ac nisi vulputate fringilla. 
+                Donec lacinia congue felis in <a href="#" class="pr-3"> more.</a></p>
+            </div>
+    
+    </div>
+
+    <div class="container">
+        <ul class="list-unstyled">categories
+            <li>home</li>
+            <li>products</li>
+            <li>about us</li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

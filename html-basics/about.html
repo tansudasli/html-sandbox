@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+    
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-column-gap: 1em;
+            grid-auto-rows: minmax(100px, auto);
+
+            /*
+            justify-items: 
+            align-items:
+            */
+
+        }
+    
+        .box-main {
+            align-self: start;
+        }
+
+        .box-side {
+            align-self: center;
+           
+        }
+
+        .wrapper div {
+            background: #eee;
+            padding: 1em;
+            margin-top: 30px;
+        }
+
+        .wrapper div:nth-child(even) {
+            background:  rgb(216, 219, 18);
+            
+        }
+
+        @media(max-width:600px) {
+            
+            .box-main {
+                grid-column: 1/4;
+
+                /*
+                grid-row: 
+                */
+            }
+
+            .box-side {
+                grid-column: 1/4;
+                justify-self: center;
+             }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- semantic web-->
+    <header id="main-header">
+        <div class="container">
+            <h1>About Us</h1>
+        </div>
+     </header>  
+
+    <!--navigation-->
+    <nav id="navigation-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li class="active"><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- css grid layout -->
+    <div class="wrapper">
+
+        <div class="box-main">
+            <h3>Who are we?</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tenetur dolore at dolores delectus excepturi optio possimus, aspernatur nostrum fuga, quas quam labore perspiciatis nesciunt? Optio rerum repellat ratione nam odit excepturi laborum assumenda, commodi voluptates itaque ab cupiditate sed doloribus molestiae totam nostrum blanditiis, suscipit a? Error asperiores nam accusamus dicta sint maiores obcaecati voluptas reiciendis commodi nulla magnam harum quisquam ratione laboriosam nisi magni consequatur qui omnis vitae ad in, aut explicabo aliquid dolorum? Sunt, atque. Illo, quia!
+        </div>
+
+        <div class="box-side">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sequi mollitia asperiores esse quod hic nihil quo non impedit excepturi!
+        </div>
+
+    </div>
+
+    <footer id="main-footer">
+        <p>Copyright &copy; 2018 The Monster Inc. Company</p>
+    </footer>
+</body>
+</html>

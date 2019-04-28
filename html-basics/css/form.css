@@ -1,0 +1,113 @@
+.clr {
+    clear: both;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+    line-height: 1.6em;
+    margin: 10px;
+}
+
+#main-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.form-feedback {
+    margin: 10px 30px 10px 20px;
+    padding: 10px;
+}
+
+.form-feedback label {
+    display: block;
+}
+
+.form-feedback input[type="text"], .form-feedback textarea {
+    padding: 8px;
+    width:100%;
+}
+
+/*.form-feedback input[type="submit"] */
+.button {
+    background-color: #333333;
+    color: wheat;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.block {
+    float: left;
+    width: 33.33%;
+}
+
+#main-bar {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+#side-bar {
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000000;
+    margin-top: 30px;
+    position: relative;
+
+    background-image: url(../images/bg.jpg);
+
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: green;
+}
+
+.my-list li:nth-child(5) {
+    background: peru;
+}
