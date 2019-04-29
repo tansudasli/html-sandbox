@@ -1,4 +1,5 @@
 # html-sandbox
+This contains dummy 3 projects for practising purposes for HTML5, CSS3 and Bootstrap4.
 
 * **html-basics**: Just simple HTML and CSS3 basics.
 * **html-bootstrap-basics**: Just bootstrap4 w/ responsive and grid basics.
