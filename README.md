@@ -16,7 +16,13 @@
 
 1. under `<head>` tag, define font, bootstrap.min.css and
    * Add `<meta name="viewport"`
-   * Add your custom css and js files: main.css  and main.js file.
+   * Add your custom css file
+       * w/ html tag selector
+       * w/ . selector for class
+       * w/ # selector for element-id
+   * Add custom js file
 2. under `<body>` tag
    * Define grid layouts:
    * At the bottom, add jquery, bootstrap.min.js and popper.min.js links
+
+
