@@ -1,9 +1,9 @@
 # html-sandbox
 
-* **html-basics** : Just simple HTML and CSS3 basics.
-* **html-bootstrap-basics** : Just bootstrap4 w/ responsive and grid basics. topography, buttons placeholders (via.placeholder.com) etc.
-* html-bootstrap-fundamentals
-* html-fundamentals
+* **html-basics**: Just simple HTML and CSS3 basics.
+* **html-bootstrap-basics**: Just bootstrap4 w/ responsive and grid basics.
+* **html-bootstrap-fundamentals**: Just bootstrap4 w/ responsive and grid basics. topography, buttons placeholders (via.placeholder.com) etc.
+* **html-fundamentals**: more close  version to a real 1-page HTML web site w/ custom CSS3
 
 ## How to Start
 
