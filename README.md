@@ -11,3 +11,7 @@
 * Install live server add-on on vscode
 * Use *.html files
 * Try w/ different screen sizes
+
+### Briefly
+1. under `<head>` tag, define font, bootstrap.min and yor custom.css file.
+2. cc
