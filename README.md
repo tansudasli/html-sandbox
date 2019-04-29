@@ -13,5 +13,8 @@
 * Try w/ different screen sizes
 
 ### Briefly
-1. under `<head>` tag, define font, bootstrap.min and yor custom.css file.
-2. cc
+
+1. under `<head>` tag, define font, bootstrap.min.css and your custom.css file.
+2. under `<body>` tag
+
+   * At the bottom, add jquery, bootstrap.min.js and popper.min.js links
