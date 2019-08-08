@@ -15,7 +15,9 @@ body {
     margin: 10px;
 
     display: flex;
-    flex-flow: row wrap; /*flex-direction flex-wrap*/
+    flex-flow: row wrap;     /*flex-direction flex-wrap*/
+    align-items: center;     /*cross axis*/
+    justify-content: center; /*main axis*/
 }
 
 .item-1 {
