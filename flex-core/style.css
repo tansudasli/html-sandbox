@@ -1,0 +1,53 @@
+html {
+    background-color:yellow;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(136, 255, 0);
+    padding: 10px;
+    margin: 0px;
+}
+
+.container {
+    background-color: rgb(255, 166, 0);
+    padding: 30px;
+    margin: 10px;
+}
+
+.item-1 {
+    background-color: yellow;
+    margin: 5px;
+}
+
+.item-2 {
+    background-color: orangered;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.item-3 {
+    background-color: orangered;
+    margin: 5px;
+    height: 150px;
+}
+
+.item-4 {
+    background-color: orangered;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.item-5 {
+    background-color: orangered;
+    margin: 5px;
+    width: 200px;
+}
+
+.item-6 {
+    background-color: orangered;
+    margin: 5px;
+    height: 200px;
+}
