@@ -6,6 +6,8 @@ This contains 4 projects for practising purposes for HTML5, CSS3 and Bootstrap4.
 * **html-bootstrap-basics**: Just bootstrap4 w/ responsive and grid basics.
 * **html-bootstrap-fundamentals**: Just bootstrap4 w/ responsive and grid basics. topography, buttons placeholders (via.placeholder.com) etc.
 * **html-fundamentals**: more close  version to a real 1-page HTML web site w/ custom CSS3
+* **flex-core**: flexbox basics
+* **flex-cardbaseio**: flexbox applied to a possible card based design 
 
 ## How to Start
 

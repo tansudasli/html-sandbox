@@ -1,0 +1,41 @@
+html {
+    background-color:yellowgreen;
+    padding: 10px;
+}
+
+body {
+    background-color:yellow;
+    padding: 10px;
+    margin: 0px;
+}
+
+.top-menu {
+    background-color: purple;
+    padding: 30px;
+    margin: 10px;
+
+    display: flex;
+    flex-flow: row nowrap;     /*flex-direction flex-wrap*/
+    align-items: center;     /*cross axis*/
+    justify-content: flex-start; /*main axis*/
+
+    color: white;
+}
+
+.content {
+    background-color: rgb(255, 166, 0);
+    padding: 30px;
+    margin: 10px;
+
+    display: flex;
+    flex-flow: row wrap;     /*flex-direction flex-wrap*/
+    align-items: center;     /*cross axis*/
+    justify-content: center; /*main axis*/
+}
+
+.item {
+    background-color: whitesmoke;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
