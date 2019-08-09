@@ -1,41 +1,82 @@
 html {
-    background-color:yellowgreen;
+    background-color:#7e0d27;
     padding: 10px;
 }
 
 body {
-    background-color:yellow;
-    padding: 10px;
+    background-color:#ec1848;
+    padding: 5px;
     margin: 0px;
 }
 
+/*flex container*/
 .top-menu {
-    background-color: purple;
-    padding: 30px;
-    margin: 10px;
+    background-color: #2D3047;
+    padding: 20px;
+    margin: 5px;
 
     display: flex;
     flex-flow: row nowrap;     /*flex-direction flex-wrap*/
     align-items: center;     /*cross axis*/
-    justify-content: flex-start; /*main axis*/
+    justify-content: center; /*main axis*/
 
     color: white;
 }
 
+.top-menu i {
+    margin-right: 10px;
+
+    flex: 0 0 auto;
+}
+
+.top-menu span {
+
+    align-self: center;
+    justify-self: end;
+    flex: 1 1 auto;
+}
+
+/*flex container*/
 .cards {
-    background-color: rgb(255, 166, 0);
-    padding: 30px;
-    margin: 10px;
+    background-color: inherit;
+    padding: 0px;
+    margin: 5px;
 
     display: flex;
-    flex-flow: row wrap;     /*flex-direction flex-wrap*/
-    align-items: center;     /*cross axis*/
-    justify-content: center; /*main axis*/
+    flex-flow: row wrap;       /*flex-direction flex-wrap*/
+    /* align-items: center;    /* cross axis */
+    justify-content: center;   /*main axis*/
 }
 
 .item {
-    background-color: whitesmoke;
-    margin: 5px;
-    height: 150px;
-    width: 150px;
+    background-color: #ff82e0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;  
+
+
+    /* order: 1    all has 0 default. impacted by flex-direction */
+    align-self: stretch;
+    flex: 1 1 auto;  /* flex-grow flex-shrink flex-basis */
 }
+
+
+.item .header{
+
+    padding: 20px;
+
+    align-self: flex-start;
+}
+
+
+.content img {
+    /* max-width: calc(100% - 0px); */
+
+    width: 100%;
+}
+
+
+
+
+
+

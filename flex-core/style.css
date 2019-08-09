@@ -13,6 +13,7 @@ body {
     background-color: rgb(255, 166, 0);
     padding: 30px;
     margin: 10px;
+    height: 500px;
 
     display: flex;
     flex-flow: row wrap;     /*flex-direction flex-wrap*/
@@ -30,6 +31,10 @@ body {
     margin: 5px;
     width: 150px;
     font-size: 30px;
+
+    /* order: 0   /* all has 0 default. impacted by flex-direction */
+    /* align-self:  stretch; /* positioned related to cross-axis (coupled flex-direction). it also overrides align-items in flex container */
+    
 }
 
 .item-3 {
@@ -49,10 +54,14 @@ body {
     background-color: orangered;
     margin: 5px;
     width: 200px;
+
+    flex: 1 1 auto;  /* flex-grow flex-shrink flex-basis */
 }
 
 .item-6 {
     background-color: orangered;
     margin: 5px;
-    height: 200px;
+    width: 200px;
+
+    flex: 1 1 auto;  /* flex-grow flex-shrink flex-basis */
 }
