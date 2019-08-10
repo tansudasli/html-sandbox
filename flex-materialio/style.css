@@ -18,8 +18,11 @@ header {
 
 #content {
     margin-top: 70px;
+
 }
 
 .item {
     margin-top: 10px;
+
+    flex-shrink: 1;
 }
