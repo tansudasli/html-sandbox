@@ -1,6 +1,8 @@
 {
   "short_name": "cardbaseio",
   "name": "cardbaseio",
+  "scope": "/",
+  "start_url": "/index.html?utm_source=homescreen",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
@@ -44,7 +46,6 @@
     }
    ],
   "display": "minimal-ui",
-  "start_url": "/flex-materialio/index.html?utm_source=homescreen",
   "background_color": "#fafafa",
   "theme_color": "#fafafa"
 }
