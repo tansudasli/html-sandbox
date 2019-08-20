@@ -2,35 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <meta name="description" content="">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <title>flex-materialio</title>
+
+    <meta name="description" content="flex materialio html5 boilerplate scss pwa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- pwa capabilities -->
     <link rel="manifest" href="site.webmanifest">
-    <meta name="theme-color" content="#fafafa">
 
     <!-- icons -->
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- ie tiling/pinnig -->
+    <meta name="application-name" content="flex-materialio">
+    <meta name="msapplication-tooltip" content="A description of what this site does.">
+    <meta name="msapplication-navbutton-color" content="#ff0000">
+    <meta name="msapplication-window" content="width=768;height=1024">
+
+    <!-- apple add to homescreen -->
+    <meta name="apple-mobile-web-app-title" content="flex-materialio">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- chrome install app -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- startup load for safari. for chrome automatically generated from .webmanifest -->
+    <link rel="apple-touch-startup-image" 
+          media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" 
+          href="assets/icons/icon-192x192.png">
 
     <!-- Required styles for MDC Web -->
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <style >
-    @import "@material/top-app-bar/mdc-top-app-bar";
-    @import "@material/icon-button/mdc-icon-button";
 
-    </style>
+    <meta name="theme-color" content="#fafafa">
+
 
     <title>flex-material</title>
 </head>
 <body>
-    
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->    
 
         <header class="mdc-top-app-bar">
                 <div class="mdc-top-app-bar__row">
@@ -138,6 +160,7 @@
 
    
     <!-- Instantiate single textfield component rendered in the document -->
+    <script src="assets/js/modernizr-3.7.1.min.js"></script>
     <script type="module" src="assets/js/app.js"></script>
 
 </body>

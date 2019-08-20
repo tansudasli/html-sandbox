@@ -3,8 +3,11 @@
 Pure *Html5 Boilerplate* w/ 
 - [x] Material icon css
 - [x] Material components used w/ flex
-- [x] PWA 
+- [x] basic PWA capabilities
 - [x] scss w/ npm to css generation
+- [x] ie Tiles capabilities
+- [x] normalizer instead of css resets
+- [x] apple add to home screen
 - [ ] firebase hosting deployment
 
 This can be used for **static html* parts of an angular material app. So It will be SEO friendly due to separating www and web-app parts.

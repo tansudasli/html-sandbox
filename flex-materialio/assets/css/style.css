@@ -10,8 +10,15 @@ header {
   flex: 1; }
 
 #content {
-  margin-top: 70px; }
+  margin: 70px 10px 0px 10px; }
 
 .item {
   margin-top: 10px;
   flex-shrink: 1; }
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }

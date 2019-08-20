@@ -18,7 +18,7 @@ header {
 }
 
 #content {
-    margin-top: 70px;
+    margin: 70px 10px 0px 10px;
 
 }
 
@@ -27,3 +27,11 @@ header {
 
     flex-shrink: 1;
 }
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }  
