@@ -43,6 +43,7 @@
     "sizes": "512x512" 
     }
    ],
+  "display": "minimal-ui",
   "start_url": "/flex-materialio/index.html?utm_source=homescreen",
   "background_color": "#fafafa",
   "theme_color": "#fafafa"
