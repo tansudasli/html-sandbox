@@ -26,3 +26,4 @@ This can be used for **static html* parts of an angular material app. So It will
         - Add `site: ...` to the firebae.json
         - Add `index.html` firebase js before </body>
         - Run `firebase deploy --project development --only hosting:static-e16e4`
+5. Customize index.html via deleting html parts.
