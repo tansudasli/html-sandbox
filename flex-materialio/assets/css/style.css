@@ -1,29 +1,17 @@
-
-
 /* flex container */
-body {  
-    margin: 10px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
+body {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 header {
-    margin-top: -10px;
-
-    flex: 1;
-
-}
+  margin-top: -10px;
+  flex: 1; }
 
 #content {
-    margin-top: 70px;
-
-}
+  margin-top: 70px; }
 
 .item {
-    margin-top: 10px;
-
-    flex-shrink: 1;
-}
+  margin-top: 10px;
+  flex-shrink: 1; }
