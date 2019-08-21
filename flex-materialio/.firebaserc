@@ -1,7 +1,30 @@
 {
   "projects": {
-    "development": "cardbaseio",
-    "production": "nope"
+    "development": "dev_project_id",
+    "production": "prod_project_id",
+    "release": "release_project_id"
+  },
+  "targets": {
+    "dev_project_id": {
+      "hosting": {
+        "www": [
+          "hosting_id"
+        ]
+      }
+    },
+    "release_project_id": {
+      "hosting": {
+        "www": [
+          "hosting_id"
+        ]
+      }
+    },
+    "prod_project_id": {
+      "hosting": {
+        "www": [
+          "hosting_id"
+        ]
+      }
+    }
   }
 }
-

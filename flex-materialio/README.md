@@ -33,9 +33,11 @@ After fork,
       So you should consider:
           - [ ] **every links in www** must be redirected correct core-app urls, regarding to stages of core-app !
           - [ ] **deployment of www** must be routed to correct project and correct hosting app ! 
-              - Add `site: ...` to the firebae.json
+          **Copy and edit .firebaserc, firebase.json files.** Basicly, below steps are...
+              - Do not add `site: ...` to the firebae.json. Instead, Use `target: ...` !
               - Add `index.html` firebase js before </body>
-              - Run `firebase deploy --project development --only hosting:static-e16e4`
+              - Run `firebase use --add`, for all projects in related firebase account ! This will define alias for `--project ...`. So you can use easily
+              - Run `firebase deploy --project development --only hosting:...`
               - for local test use `firebase serve`.
 
 then, start **to customize** index.html via deleting html parts and adding new htmls.
