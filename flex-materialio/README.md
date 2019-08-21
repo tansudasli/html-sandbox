@@ -14,17 +14,26 @@ This can be used for **static html* parts of an angular material app. So It will
 
 ## How to start
 
-1. Generate scss to css
-    - `npm init`
-    - `npm install --save-dev node-sass` for scss to css compile w/ npm
+After fork, 
+
+1. Get packages: such as to generate scss-2-css w/ node-sass
+    - `npm install`
     - `npm run scss` to generate css files.
-2. Install nodejs for npm w/ `brew install node`
-3. Install Firebase CLI w/ `npm install -g firebase-tools`
-4. `firebase login` to login w/ related firebase console. or `firebase logout` to change firebase user.
+2. Install Firebase CLI w/ `npm install -g firebase-tools`
+3. `firebase login` to **switch firebase user**. or `firebase logout` to change firebase user.
     - `firebase list` to see projects
-    - then, `firebase init` to initialize firebase project. w/ hosting
-        - Add `site: ...` to the firebae.json
-        - Add `index.html` firebase js before </body>
-        - Run `firebase deploy --project development --only hosting:static-e16e4`
-        - for local test use `firebase serve`.
-5. Customize index.html via deleting html parts.
+    - then, `firebase init` to initialize firebase settings w/ 
+      1. hosting,
+      2. public=.
+      3. no route to index.html. 
+      4. no overwrite 4040.html
+      5. no overwrite index.html<br>
+      In a real scenario you will have dev, release, prod, demo stages. So you should consider:
+        - [ ] **every links in www** must be redirected correct core-app urls, regarding to stages of core-app !
+        - [ ] **deployment of wwww** must be routed to correct project and correct hosting app ! 
+            - Add `site: ...` to the firebae.json
+            - Add `index.html` firebase js before </body>
+            - Run `firebase deploy --project development --only hosting:static-e16e4`
+            - for local test use `firebase serve`.
+
+then, start **to customize** index.html via deleting html parts and adding new htmls.
