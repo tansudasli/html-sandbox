@@ -9,6 +9,7 @@ Pure *Html5 Boilerplate* w/
 - [x] normalizer instead of css resets
 - [x] apple add to home screen
 - [x] firebase hosting deployment
+- [ ] configurable (colors, fonts etc.) material design
 
 This can be used for **static html* parts of an angular material app. So It will be SEO friendly due to separating www and web-app parts.
 
